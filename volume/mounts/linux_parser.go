@@ -218,7 +218,7 @@ func validateTmpfsOptions(rawOptions [][]string) ([]string, error) {
 			return nil, errors.New("invalid option array length")
 		}
 		if _, ok := validTmpfsOptions[opt[0]]; !ok {
-			return nil, errors.New("invalid option: " + opt[0])
+			//return nil, errors.New("invalid option: " + opt[0])
 		}
 
 		if len(opt) == 1 {
