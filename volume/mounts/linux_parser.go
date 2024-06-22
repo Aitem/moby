@@ -208,6 +208,7 @@ var validTmpfsOptions = map[string]bool{
 	"exec":   true,
 	"uid":    true,
 	"gid":    true,
+	"foo":    true,
  	"noexec": true,
 }
 
