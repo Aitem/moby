@@ -206,7 +206,9 @@ func linuxValidMountMode(mode string) bool {
 
 var validTmpfsOptions = map[string]bool{
 	"exec":   true,
-	"noexec": true,
+	"uid":    true,
+	"gid:     true,
+ 	"noexec": true,
 }
 
 func validateTmpfsOptions(rawOptions [][]string) ([]string, error) {
